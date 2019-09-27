@@ -5,7 +5,11 @@
   
   ![Example of VJoy configuration](docs/vjoyconfiguration.png)
   
-  * Run the server.py script with Python 3+
+  * Install Python 3+ and install pyvjoy
+  ```
+  python -m pip install pyvjoy
+  ```
+  * Run the server.py script
   ```
   python server.py
   ```
