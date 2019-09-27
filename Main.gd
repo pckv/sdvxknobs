@@ -1,7 +1,7 @@
 extends Control
 
 var hz = 120
-var host = '192.168.1.103'
+var host = '127.0.0.1'  # change to your computers IP address
 var port = 14854
 var sock = PacketPeerUDP.new()
 
@@ -74,11 +74,3 @@ func _draw():
 	for knob in knobs:
 		draw_circle(knob.position, radius, knob.color)
 		draw_string(font, knob.position, str(knob.value))
-
-
-
-
-
-
-
-
