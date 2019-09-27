@@ -14,7 +14,7 @@ def main():
     sock.bind((host, port))
     
     # Continuously read data from the socket
-    print(f'Server setup, connect to {socket.gethostbyname(socket.gethostname())}:{port}')
+    print('Server setup, connect to ', socket.gethostbyname(socket.gethostname()), ':', port, sep='')
     while True:
         data, addr = sock.recvfrom(1024)
         left, right = json.loads(data.decode())

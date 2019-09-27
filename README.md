@@ -5,12 +5,12 @@
   
   ![Example of VJoy configuration](docs/vjoyconfiguration.png)
   
-  * Run the server.py script with python. Python 3.6+ is required, so download that if you don't have it
+  * Run the server.py script with Python 3+
   ```
   python server.py
   ```
   
-  * Import the root directory in Godot as a Godot project
+  * Import the sdvxknobs/project.godot file in Godot
   * Change the IP address in [Main.gd](https://github.com/pckv/sdvxknobs/blob/master/Main.gd) 
     to the address of your computer. this is the address printed by the python script.
   * Export the Android application as apk and transfer it to your phone (you can find up a 
