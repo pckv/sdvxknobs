@@ -15,7 +15,7 @@
   ```
   
   * Import the sdvxknobs/project.godot file in Godot
-  * Change the IP address in [Main.gd](https://github.com/pckv/sdvxknobs/blob/master/Main.gd) 
+  * Change the IP address in [Main.gd](sdvxknobs/Main.gd) 
     to the address of your computer. this is the address printed by the python script.
   * Export the Android application as apk and transfer it to your phone (you can find a 
     tutorial on how to export to Android with Godot in their documentation or on YouTube)
